@@ -41,14 +41,14 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fN6-mk-A46"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-0r-CBF">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-0r-CBF">
                                         <rect key="frame" x="0.0" y="104.5" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Luc-0r-CBF" secondAttribute="height" multiplier="1:1" id="8II-nl-UQ0"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="Jcg-Dw-dHg" appends="YES" id="AQU-LH-gHY"/>
+                                            <outletCollection property="gestureRecognizers" destination="Jcg-Dw-dHg" appends="YES" id="FMR-HF-mrJ"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -69,6 +69,7 @@
                         <outlet property="mealNameLabel" destination="XxN-HK-mbu" id="xRe-C2-Yd6"/>
                         <outlet property="nameTextField" destination="CT6-1S-xR6" id="9RT-Ng-7ix"/>
                         <outlet property="photoImageView" destination="Luc-0r-CBF" id="kBo-ev-CLI"/>
+                        <outlet property="tapGestureRecognizer" destination="Jcg-Dw-dHg" id="qvV-Sb-tFF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
